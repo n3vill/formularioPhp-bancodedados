@@ -33,7 +33,6 @@
   <body>
     <div class="container">
         <h1>Cadastro</h1>
-        
         <form action="cadastro.php" method="POST">
             <div class="mb-3">
                 <label for="aluno" class="form-label">Aluno(a)</label>
