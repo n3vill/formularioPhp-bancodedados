@@ -14,7 +14,7 @@
     $cidade= $_POST['cidade'];
     $matricula= $_POST['matricula'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(aluno,cidade,matricula)
+    $result = mysqli_query($conexao, "INSERT INTO tabela_alunos (aluno,cidade,matricula)
     VALUES ('$aluno','$cidade','$matricula')");
     }
 ?>

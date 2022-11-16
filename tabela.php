@@ -1,7 +1,7 @@
 <?php
 include_once('config.php');
 
-$sql = "SELECT * FROM usuarios ORDER BY id DESC";
+$sql = "SELECT * FROM listaalunos ORDER BY id DESC";
 
 $result = $conexao -> query($sql);
 

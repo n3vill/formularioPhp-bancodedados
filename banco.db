@@ -1,0 +1,8 @@
+CREATE SCHEMA `listaalunos` ;
+
+CREATE TABLE `listaalunos`.`tabela_alunos` (
+  `id` INT NOT NULL,
+  `aluno` VARCHAR(200) NOT NULL,
+  `cidade` VARCHAR(100) NOT NULL,
+  `matricula` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
